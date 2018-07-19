@@ -1,6 +1,6 @@
-package com.ecommerce.fsp.page_objects;
+package com.ecommerce.inno.page_objects;
 
-import com.ecommerce.fsp.driver.DriverFactory;
+import com.ecommerce.inno.driver.DriverFactory;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;

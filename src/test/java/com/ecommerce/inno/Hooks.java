@@ -1,6 +1,6 @@
-package com.ecommerce.fsp;
+package com.ecommerce.inno;
 
-import com.ecommerce.fsp.driver.DriverFactory;
+import com.ecommerce.inno.driver.DriverFactory;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 

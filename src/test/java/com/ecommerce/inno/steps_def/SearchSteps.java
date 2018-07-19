@@ -1,6 +1,6 @@
-package com.ecommerce.fsp.steps_def;
+package com.ecommerce.inno.steps_def;
 
-import com.ecommerce.fsp.page_objects.Homepage;
+import com.ecommerce.inno.page_objects.Homepage;
 import cucumber.api.java.en.Given;
 
 public class SearchSteps {

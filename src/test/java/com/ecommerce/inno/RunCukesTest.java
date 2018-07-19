@@ -1,4 +1,4 @@
-package com.ecommerce.fsp;
+package com.ecommerce.inno;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
