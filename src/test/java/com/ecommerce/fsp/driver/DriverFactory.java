@@ -47,4 +47,8 @@ public class DriverFactory {
     public void navigateto(String url){
         driver.get(url);
     }
+
+    public void maxBroser(){
+        driver.manage().window().maximize();
+    }
 }

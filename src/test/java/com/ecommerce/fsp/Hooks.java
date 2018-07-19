@@ -13,6 +13,7 @@ public class Hooks {
         driverFactory.openBrowser();
         driverFactory.navigateto("https://www.debenhams.com/");
         driverFactory.applyImpWait();
+        driverFactory.maxBroser();
 
     }
 
