@@ -7,14 +7,14 @@ import cucumber.api.java.Before;
 public class Hooks {
 
     private DriverFactory driverFactory = new DriverFactory();
+    private String url = System.getProperty("url");
 
     @Before
     public void setUp() {
         driverFactory.openBrowser();
-        driverFactory.navigateto("https://www.debenhams.com/");
+        driverFactory.navigateTo(url);
         driverFactory.applyImpWait();
         driverFactory.maxBroser();
-
     }
 
     @After
