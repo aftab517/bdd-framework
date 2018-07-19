@@ -44,7 +44,12 @@ public class DriverFactory {
     }
 
 
-    public void navigateto(String url){
+    public void navigateTo(String url){
         driver.get(url);
+        System.out.println("navigating to "+url);
+    }
+
+    public void maxBroser(){
+        driver.manage().window().maximize();
     }
 }
