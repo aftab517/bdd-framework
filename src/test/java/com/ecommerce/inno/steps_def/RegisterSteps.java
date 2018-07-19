@@ -1,9 +1,7 @@
-package com.ecommerce.fsp.steps_def;
+package com.ecommerce.inno.steps_def;
 
-import com.ecommerce.fsp.page_objects.Homepage;
-import com.ecommerce.fsp.page_objects.RegisterPage;
-import cucumber.api.DataTable;
-import cucumber.api.java.en.Given;
+import com.ecommerce.inno.page_objects.Homepage;
+import com.ecommerce.inno.page_objects.RegisterPage;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
@@ -11,7 +9,6 @@ import java.util.List;
 import java.util.Map;
 
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.hamcrest.Matchers.endsWith;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.is;
 

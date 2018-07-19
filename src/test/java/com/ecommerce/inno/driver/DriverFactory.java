@@ -1,4 +1,4 @@
-package com.ecommerce.fsp.driver;
+package com.ecommerce.inno.driver;
 
 import io.github.bonigarcia.wdm.ChromeDriverManager;
 import io.github.bonigarcia.wdm.FirefoxDriverManager;
